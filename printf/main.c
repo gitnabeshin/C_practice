@@ -37,8 +37,9 @@ int main(void)
     printf("FILE p=%p \n", fp);
     printf("ptr_len=%ld \n\n", sizeof(fp));
 
-
     fclose(fp);
+    // unlink(buf+2);
+
     close(sock);
 
     return 0;
