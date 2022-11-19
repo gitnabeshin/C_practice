@@ -1,4 +1,12 @@
-# Run
+# pthread mutex in shared library
+## shm
+
+* [shmget()](https://linuxjm.osdn.jp/html/LDP_man-pages/man2/shmget.2.html)
+* [shmat()](https://linuxjm.osdn.jp/html/LDP_man-pages/man2/shmop.2.html)
+* [shmdt()](https://linuxjm.osdn.jp/html/LDP_man-pages/man2/shmop.2.html)
+* [shmctl()](https://linuxjm.osdn.jp/html/LDP_man-pages/man2/shmctl.2.html)
+
+## Run
 
 ```
 nabeshin@iMacNabeshin test2 % make      
