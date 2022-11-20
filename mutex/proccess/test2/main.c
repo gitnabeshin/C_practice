@@ -10,6 +10,7 @@ int main(int argc, char const *argv[]) {
         return 1;
     }
 
+    // To make mutex is shared with some processes, processes must be forked.
     pid_t pid = fork();
     // For child:  return 0 for child.
     // For Parent: return pid of child

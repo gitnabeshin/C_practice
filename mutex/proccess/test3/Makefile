@@ -3,3 +3,7 @@ main.out: main.c libtest.so
 
 libtest.so: libtest.c
 	gcc -shared -o libtest.so libtest.c
+
+clean:
+	rm ./libtest.so ./main.out
+
